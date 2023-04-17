@@ -1,0 +1,99 @@
+body {
+    background-color: #EFEFEF;
+    color: #232323;
+    animation-name: fondo-animado;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+
+}
+
+h2 {
+    text-align: center;
+    color: #948b8b;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+h3 {
+    font-family: 'Bungee Spice', cursive;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+}
+
+.player, .bot, .draw{
+    padding: 50px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+}
+
+.bot img {
+    height:94px;
+}
+
+.player img {
+    height: 94px;
+}
+
+.draw img {
+    height: 94px;
+}
+
+.score {
+    display: flex;
+}
+
+.play {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.play input {
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    border: 1px solid #CCEAF4;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.play input:focus {
+    border: 2px solid #FF3B3F;
+}
+
+.options {
+    display: flex; 
+    justify-content: center;
+}
+
+.options button {
+    width: 70px;
+    height: 70px;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #CCEAF4;
+    cursor: pointer;
+}
+
+.options button:focus {
+    border: 2px solid #FF3B3F;
+}
+
+@keyframes fondo-animado {
+    0% {
+        background: #EFEFEF;
+    } 50% {
+        background: #c5cfd3;
+    } 100% {
+        background: #EFEFEF;
+    }
+}
