@@ -33,36 +33,36 @@ function playGame (player) {
         scoreDraw.push(1)
         scoredraw.innerText = scoreDraw.length
         console.log(`Ambos jugadores empatan con ${options[player]}`)
-        logoPlayer.src = `./assets/logos/${options[player]}.png`
-        logoBot.src = `./assets/logos/${options[bot]}.png`
-        logoDraw.src = './assets/logos/empate.png'
+        logoPlayer.src = `./src/assets/logos/${options[player]}.png`
+        logoBot.src = `./src/assets/logos/${options[bot]}.png`
+        logoDraw.src = './src/assets/logos/empate.png'
     } else if (player == 0 && bot == 2) {
         console.log(`Player win (${options[player]} / ${options[bot]})`)
         scorePlayer.push(1)
         scoreplayer.innerText = scorePlayer.length
-        logoPlayer.src = `./assets/logos/${options[player]}.png`
-        logoBot.src = `./assets/logos/${options[bot]}.png`
-        logoDraw.src = './assets/logos/win.png'
+        logoPlayer.src = `./src/assets/logos/${options[player]}.png`
+        logoBot.src = `./src/assets/logos/${options[bot]}.png`
+        logoDraw.src = './src/assets/logos/win.png'
     } else if (player == 1 && bot == 0) {
         console.log(`Player win (${options[player]} / ${options[bot]})`)
         scorePlayer.push(1)
         scoreplayer.innerText = scorePlayer.length
-        logoPlayer.src = `./assets/logos/${options[player]}.png`
-        logoBot.src = `./assets/logos/${options[bot]}.png`
-        logoDraw.src = './assets/logos/win.png'
+        logoPlayer.src = `./src/assets/logos/${options[player]}.png`
+        logoBot.src = `./src/assets/logos/${options[bot]}.png`
+        logoDraw.src = './src/assets/logos/win.png'
     } else if (player == 2 && bot == 1) {
         console.log(`Player win (${options[player]} / ${options[bot]})`)
         scorePlayer.push(1)
         scoreplayer.innerText = scorePlayer.length
-        logoPlayer.src = `./assets/logos/${options[player]}.png`
-        logoBot.src = `./assets/logos/${options[bot]}.png`
-        logoDraw.src = './assets/logos/win.png'
+        logoPlayer.src = `./src/assets/logos/${options[player]}.png`
+        logoBot.src = `./src/assets/logos/${options[bot]}.png`
+        logoDraw.src = './src/assets/logos/win.png'
     } else {
         console.log(`Bot win (${options[player]} / ${options[bot]})`)
         scoreBot.push(1)
         scorebot.innerText = scoreBot.length
-        logoPlayer.src = `./assets/logos/${options[player]}.png`
-        logoBot.src = `./assets/logos/${options[bot]}.png`
-        logoDraw.src = './assets/logos/lose.png'
+        logoPlayer.src = `./src/assets/logos/${options[player]}.png`
+        logoBot.src = `./src/assets/logos/${options[bot]}.png`
+        logoDraw.src = './src/assets/logos/lose.png'
     }
 }
